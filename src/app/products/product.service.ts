@@ -6,7 +6,7 @@ import 'rxjs/add/observable/throw';
 import 'rxjs/add/operator/do';
 import 'rxjs/add/operator/map';
 
-import { IProduct } from './product';
+import { IProduct } from '../models/products/product';
 
 @Injectable()
 export class ProductService {
